@@ -1,0 +1,100 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* margin-top: 30vh; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+input {
+    height: 30px;
+}
+
+.loginMainContainer {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginContainer {
+    margin-top: 50px;
+}
+
+.inputField {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+
+button,
+#submitbtn {
+    border: 1px solid #004aad;
+    color: #004aad;
+    border-radius: 10px;
+    padding: 7px 30px;
+    margin: 0 5px;
+}
+
+button:hover,
+#submitbtn:hover {
+    background: #004aad;
+    color: white;
+}
+
+/* todo */
+#userTable {
+    float: right;
+    margin-top: -700px;
+    margin-right: 40px;
+
+
+}
+
+.itemrow {
+    border: 1px solid black;
+    width: 850px;
+
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    height: 50px;
+}
+
+.addAbtn {
+    float: right;
+    margin-top: -40px;
+}
+
+/* header */
+.header{
+    height: 60px;
+    border:2px solid greenyellow ;
+}
+/* sidebar */
+.sidebar{
+    width: 200px;
+    float:left;
+    background:greenyellow ;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30px;
+}
+.sidebar h5{
+    height: 370px;
+}
+
+/* todo dashboard */
+.todoDashboard{
+    /* float:right; */
+    
+}
